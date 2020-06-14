@@ -4,7 +4,7 @@ Esboço elaborado para apresentação do Projecto Final de Programação WEB (Co
 
 Visitar o Website (Alojado em AWS):
 
-<img src="https://assets.cloud.im/prod/ux1/images/logos/aws/aws-2x.png" width="48">
+<img src="https://assets.cloud.im/prod/ux1/images/logos/aws/aws-2x.png" width="48" href="https://aws.amazon.com/">
 
 Europa -> https://master.d2oahmqg0kzl7d.amplifyapp.com/
 
