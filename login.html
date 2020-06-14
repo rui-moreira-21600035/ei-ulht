@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt"><link type="text/css" id="dark-mode" rel="stylesheet" href=""><style type="text/css" id="dark-mode-custom-style"></style>
+  <head>
+    <!-- The Title of My Page -->
+    <title>Login - EINF@ULHT</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Rui Moreira, Aluno 21600035 @ ULHT 19/20">
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="./icons/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./icons/favicon/favicon.ico" type="image/x-icon">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <!-- Custom styles for this template -->
+    <link href="./css/floating-labels.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.gstatic.com/recaptcha/releases/ADnAC3ZykfbIOflWgrKNsVVT/demo__ltr.css" type="text/css">
+    <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/ADnAC3ZykfbIOflWgrKNsVVT/recaptcha__pt_pt.js" nonce=""></script>
+    <script src="/recaptcha/api.js" async="" defer="" nonce=""></script>
+
+    <script>
+      function go(loc) {
+          let user = document.getElementById('inputUsername').value;
+          let pass = document.getElementById('inputPassword').value;
+          console.log(user);
+          console.log(pass);
+          if(user === 'a21600035' && pass === 'password'){
+            window.location.href = loc;
+          }
+      }
+      </script>
+  </head>
+  <body>
+    <div class="col-sm-4 panel-transparent"></div>
+    <!-- Começa a coluna da esquerda -->
+    <!-- Acaba a coluna da esquerda -->
+    <div class="col-sm-4 center-panel">
+      <form class="form-signin" action="?" method="POST">
+        <div class="text-center mb-4">
+          <img class="mb-4" src="./img/logo01_.png" alt="logo_ulht" width="65%" height="65%">
+          <p id="title" class="mb-3 font-weight-normal">ENG. INFORMÁTICA</p>
+        </div>
+        <br>
+        <div class="form-label-group">
+          <input type="text" id="inputUsername" class="form-control" placeholder="Username" required="" autofocus="">
+          <label for="inputEmail">Username</label>
+        </div>
+
+        <div class="form-label-group">
+          <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+          <label for="inputPassword">Password</label>
+        </div>
+
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Lembrar credenciais
+          </label>
+        </div>
+        <div id="recaptcha">
+          <!-- BEGIN: ReCAPTCHA implementation example. -->
+          <div id="recaptcha-demo" class="g-recaptcha" data-sitekey="6Le-wvkSAAAAAPBMRTvw0Q4Muexq9bi0DJwx_mJ-" data-callback="onSuccess">
+            <div style="width: 304px; height: 78px;">
+              <div class="captcha">
+                <iframe title="captcha" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Le-wvkSAAAAAPBMRTvw0Q4Muexq9bi0DJwx_mJ-&amp;co=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbTo0NDM.&amp;hl=pt-PT&amp;v=ADnAC3ZykfbIOflWgrKNsVVT&amp;size=normal&amp;cb=up1ldy2n6h6y" role="presentation" name="a-xfveeedp3mtv" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" width="300%" height="100%" frameborder="0"></iframe>
+              </div>
+              <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 15.62em; height: 2.5em; border: 1px solid rgb(193, 193, 193); margin: 0.625em 1.5625em; padding: 0px; resize: both; display: none;"></textarea>
+            </div>
+          </div>
+          <script nonce="">
+            var onSuccess = function(response) {
+            var errorDivs = document.getElementsByClassName("recaptcha-error");
+            if (errorDivs.length) {
+              errorDivs[0].className = "";
+            }
+            var errorMsgs = document.getElementsByClassName("recaptcha-error-message");
+            if (errorMsgs.length) {
+              errorMsgs[0].parentNode.removeChild(errorMsgs[0]);
+            }
+            };
+          </script>
+          <!-- Optional noscript fallback. -->
+          <noscript>
+            <div style="width: 302px; height: 462px;">
+              <iframe title="captcha-fallback" src="/recaptcha/api/fallback?k=6Le-wvkSAAAAAPBMRTvw0Q4Muexq9bi0DJwx_mJ-" frameborder="0" scrolling="no"></iframe>
+              <div>
+                <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response"></textarea>
+              </div>
+            </div>
+            <br>
+          </noscript>
+          <!-- END: ReCAPTCHA implementation example. -->
+        </div>
+        <br>
+        <button class="btn btn-lg btn-darkblue btn-block" type="button" onclick="go('./main.html')">Entrar</button>
+        <p class="mt-5 mb-3 text-muted text-center">Powered by © Rui Moreira<br>ULHT 2019/20</p>
+      </form>
+      <div id="extwaiokist" style="display:none" v="{8e6a" f="ZXpobE5tRXhPREZsTFRRd1kyVXRORE5tWmkwNU5ETTJMV00yT0dVME1tVTFZV1ZtTjMwPQ==" q="2781d09e" c="50.39" i="54" u="8.817" s="05282016" w="false" m="BMe="><div id="extwaiimpotscp" style="display:none" v="{8e6a" f="ZXpobE5tRXhPREZsTFRRd1kyVXRORE5tWmkwNU5ETTJMV00yT0dVME1tVTFZV1ZtTjMwPQ==" q="2781d09e" c="50.39" i="54" u="8.817" s="05282016" w="false" m="BMe=" vn="0yten"></div></div>
+      </div>
+      <div class="col-sm-4 panel-transparent"></div>
+    <!-- Começa a coluna da esquerda -->
+    <!-- Acaba a coluna da esquerda -->
+  </body>
+</html>

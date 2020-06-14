@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt"><link type="text/css" id="dark-mode" rel="stylesheet" href=""><style type="text/css" id="dark-mode-custom-style"></style>
+    <head>
+        <!-- The Title of My Page -->
+        <title>Página Principal - EINF@ULHT</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Rui Moreira, Aluno 21600035 @ ULHT 19/20">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="./icons/favicon/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="./icons/favicon/favicon.ico" type="image/x-icon">
+        <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="./css/main.css">
+        <!-- Font Awesome JS -->
+        <script defer src="./js/solid.js" type="text/javascript"></script>
+        <script defer src="./js/fontawesome.js" type="text/javascript"></script>
+
+        <script src="./js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="./js/jquery-1.11.1.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <script>
+            function go(loc) {
+                document.getElementById('iframe-container').src = loc;
+            }
+            </script>
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+                <div class="sidebar-header center-text">
+                    <h3><img class="logo-main" src="./img/logo_white.png"> Engenharia Informática</h3>
+                </div>
+
+                <ul class="list-unstyled components">
+                    <p class="thick center-text" onclick="go('./index.html')"> Menu Principal</p>
+                    <li class="active">
+                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Unidades Curriculares</a>
+                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                            <li>
+                                <a href="#" onclick="go('./acs.html')">Análise e Concepção de Sistemas</a>
+                            </li>
+                            <li>
+                                <a href="#" onclick="go('./cg.html')">Computação Gráfica</a>
+                            </li>
+                            <li>
+                                <a href="#" onclick="go('./pw.html')">Programação WEB</a>
+                            </li>
+                            <li>
+                                <a href="#" onclick="go('./rc.html')">Redes e Computadores</a>
+                            </li>
+                            <li>
+                                <a href="#" onclick="go('./ssd.html')">Sistemas de Suporte à Decisão</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" onclick="go('./grades.html')">Pautas de Avaliação</a>
+                    </li>
+                    <li>
+                        <a href="#" id="calendar" onclick="go('./calendar.html')">Calendário</a>
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Links Úteis</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                            <li>
+                                <a href="https://www.ulusofona.pt/" target="_blank">ULusofona.pt</a>
+                            </li>
+                            <li>
+                                <a href="https://secure.grupolusofona.pt/ulht/secretaria_virtual/" target="_blank">Secretaria Online</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" onclick="go('./general_resources.html')">Recursos Gerais</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="go('./contacts.html')">Contactos</a>
+                    </li>
+                </ul>
+
+                
+            </nav>
+
+            <!-- Page Content Holder -->
+            <div id="content">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+
+                        <button type="button" id="sidebarCollapse" class="navbar-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fas fa-align-justify"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="nav navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <p class="login" title="user" href="#">Login efectuado como: <text class="login thick">Rui Moreira </t><img class="user-avatar" title="user-avatar" src="./img/rui.jpg"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="iframe-container">
+                    <iframe id="iframe-container" src="./index.html" title="mutable-page" frameborder="0" scrolling="yes" allowfullscreen onload="resizeIframe(this)"/></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery CDN - Slim version (=without AJAX) -->
+        <script src="./js/jquery-3.3.1.slim.min.js" type="text/javascript"></script>
+        <!-- Popper.JS -->
+        <script src="./js/popper.min.js" type="text/javascript"></script>
+        <!-- Bootstrap JS -->
+        <script src="./js/bootstrap.min.js" type="text/javascript"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar').toggleClass('active');
+                    $(this).toggleClass('active');
+                });
+            });
+        </script>
+    </body>
+
+</html>
