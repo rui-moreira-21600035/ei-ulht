@@ -1,5 +1,5 @@
 # Engenharia Informática @ ULHT
-<br><hr><br>
+
 Esboço elaborado para apresentação do Projecto Final de Programação WEB (Componente Teórica) por:
 
 <strong>Rui Moreira</strong><br>
