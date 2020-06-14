@@ -1,4 +1,4 @@
-# ei-ulht
+# Engenharia Informática @ ULHT
 
 Projecto PW (Componente Teórica)
 
