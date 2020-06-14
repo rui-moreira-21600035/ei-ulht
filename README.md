@@ -1,6 +1,9 @@
 # Engenharia Informática @ ULHT
 
-Esboço elaborado para apresentação do Projecto Final de Programação WEB (Componente Teórica)
+Esboço elaborado para apresentação do Projecto Final de Programação WEB (Componente Teórica) por:
+
+Rui Moreira
+Aluno 21600035 @ 2019/20
 
 Visitar o Website (Alojado em AWS):
 
