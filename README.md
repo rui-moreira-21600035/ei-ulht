@@ -3,7 +3,7 @@
 Esboço elaborado para apresentação do Projecto Final de Programação WEB (Componente Teórica) por:
 
 <strong>Rui Moreira</strong><br>
-<strong>Aluno 21600035 @ 2019/20</strong><br>
+<strong>Aluno 21600035 @ LEI ULHT - 2019/20</strong><br>
 
 Visitar o Website (Alojado em AWS):
 
