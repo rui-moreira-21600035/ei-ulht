@@ -4,7 +4,7 @@ Esboço elaborado para apresentação do Projecto Final de Programação WEB (Co
 
 <strong>Rui Moreira</strong><br>
 <strong>Aluno 21600035 @ 2019/20</strong><br>
-
+<br><hr><br>
 Visitar o Website (Alojado em AWS):
 
 <a href="https://aws.amazon.com/" target="_blank"><img src="https://assets.cloud.im/prod/ux1/images/logos/aws/aws-2x.png" width="48"></a>
