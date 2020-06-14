@@ -13,6 +13,7 @@ Europa -> https://master.d2oahmqg0kzl7d.amplifyapp.com/
 
 EUA -> https://master.d2t73t61750tqx.amplifyapp.com/
 
+Optimizado para resolução 1920x1080 (Mozilla Firefox, Google Chrome e Safari)
 <hr>
 <br>
 
