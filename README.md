@@ -20,21 +20,21 @@ Páginas das UC's
 ![](image3.jpg?raw=true "Página Principal")
 
 ---------
-Notas
+Notas de Avaliação
 ---------
 ![](image4.jpg?raw=true "Página Principal")
 
 ---------
-Calendário
+Calendário de Eventos (Trabalhos, Testes e Exames)
 ---------
 ![](image5.jpg?raw=true "Página Principal")
 
 ---------
-Recursos Gerais
+Recursos Gerais - Eng Informática
 ---------
 ![](image6.jpg?raw=true "Página Principal")
 
 ---------
-Contactos
+Contactos Gerais ULHT
 ---------
 ![](image7.jpg?raw=true "Página Principal")
