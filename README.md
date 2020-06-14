@@ -5,6 +5,7 @@ Esboço elaborado para apresentação do Projecto Final de Programação WEB (Co
 Visitar o Website (Alojado em AWS):
 
 Europa -> https://master.d2oahmqg0kzl7d.amplifyapp.com/
+
 EUA -> https://master.d2t73t61750tqx.amplifyapp.com/
 
 index.html
