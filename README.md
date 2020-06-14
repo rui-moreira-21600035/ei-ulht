@@ -1,8 +1,8 @@
 # Engenharia Informática @ ULHT
 
-Visitar o Site -> https://master.d2t73t61750tqx.amplifyapp.com/
-
 Esboço elaborado para apresentação do Projecto Final de Programação WEB (Componente Teórica)
+
+Visitar o Website -> https://master.d2t73t61750tqx.amplifyapp.com/
 
 index.html
 ---------------------------------------------
