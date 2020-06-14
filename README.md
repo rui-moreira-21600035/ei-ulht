@@ -2,7 +2,7 @@
 
 Esboço elaborado para apresentação do Projecto Final de Programação WEB (Componente Teórica) por:
 
-Rui Moreira
+<strong>Rui Moreira</strong>
 Aluno 21600035 @ 2019/20
 
 Visitar o Website (Alojado em AWS):
