@@ -1,10 +1,10 @@
 # Engenharia Informática @ ULHT
-
+<br><hr><br>
 Esboço elaborado para apresentação do Projecto Final de Programação WEB (Componente Teórica) por:
 
 <strong>Rui Moreira</strong><br>
 <strong>Aluno 21600035 @ 2019/20</strong><br>
-<br><hr><br>
+-----------------------------------
 Visitar o Website (Alojado em AWS):
 
 <a href="https://aws.amazon.com/" target="_blank"><img src="https://assets.cloud.im/prod/ux1/images/logos/aws/aws-2x.png" width="48"></a>
@@ -12,7 +12,7 @@ Visitar o Website (Alojado em AWS):
 Europa -> https://master.d2oahmqg0kzl7d.amplifyapp.com/
 
 EUA -> https://master.d2t73t61750tqx.amplifyapp.com/
-
+<br><hr><br>
 index.html
 ---------------------------------------------
 Página Inicial - Login (user:"a21600035" pass:"password")
