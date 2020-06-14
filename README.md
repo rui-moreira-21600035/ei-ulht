@@ -2,7 +2,7 @@
 
 Esboço elaborado para apresentação do Projecto Final de Programação WEB (Componente Teórica)
 
-login.html
+index.html
 ---------------------------------------------
 Página Inicial - Login (user:"a21600035" pass:"password")
 ---------
