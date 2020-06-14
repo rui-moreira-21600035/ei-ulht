@@ -2,7 +2,7 @@
 
 Esboço elaborado para apresentação do Projecto Final de Programação WEB (Componente Teórica)
 
-![](https://assets.cloud.im/prod/ux1/images/logos/aws/aws-2x.png?raw=true | width=100 | "AWS")
+![](https://assets.cloud.im/prod/ux1/images/logos/aws/aws-2x.png | width=100)
 
 Visitar o Website (Alojado em AWS):
 
