@@ -1,3 +1,3 @@
 # ei-ulht
 Projecto PW (Componente Teórica)
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com//rui-moreira-21600035/ei-ulht/edit/master/image.jpg?raw=true)
