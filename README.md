@@ -5,7 +5,8 @@ Esboço elaborado para apresentação do Projecto Final de Programação WEB (Co
 <strong>Rui Moreira</strong><br>
 <strong>Aluno 21600035 @ LEI ULHT - 2019/20</strong><br>
 
-<t style="vertical-align: middle;">Visitar o Website (Alojado em AWS): <a href="https://aws.amazon.com/" target="_blank"><img src="https://assets.cloud.im/prod/ux1/images/logos/aws/aws-2x.png" width="24"></a></t>
+Visitar o Website (Alojado em AWS):
+<a href="https://aws.amazon.com/" target="_blank"><img src="https://assets.cloud.im/prod/ux1/images/logos/aws/aws-2x.png" width="24"></a>
 
 <img src="https://img.icons8.com/color/48/000000/flag-of-europe.png" width="18"/> Europa -> https://master.d2oahmqg0kzl7d.amplifyapp.com/
 
