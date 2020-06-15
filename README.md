@@ -9,9 +9,9 @@ Visitar o Website (Alojado em AWS):
 
 <a href="https://aws.amazon.com/" target="_blank"><img src="https://assets.cloud.im/prod/ux1/images/logos/aws/aws-2x.png" width="48"></a>
 
-<img src="https://img.icons8.com/color/48/000000/flag-of-europe.png" width="20"/> Europa -> https://master.d2oahmqg0kzl7d.amplifyapp.com/
+<img src="https://img.icons8.com/color/48/000000/flag-of-europe.png" width="18"/> Europa -> https://master.d2oahmqg0kzl7d.amplifyapp.com/
 
-<img src="https://img.icons8.com/color/48/000000/usa.png" width="20"/> EUA -> https://master.d2t73t61750tqx.amplifyapp.com/
+<img src="https://img.icons8.com/color/48/000000/usa.png" width="18"/> EUA -> https://master.d2t73t61750tqx.amplifyapp.com/
 
 *Optimizado para resolução 1920x1080 (Mozilla Firefox, Google Chrome e Safari)
 <hr>
